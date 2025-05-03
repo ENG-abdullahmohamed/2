@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap')
+*{font-family: 'Poppins', sans-serif;
+padding:0;
+margin:0;}
+
+.mee a{color:white;
+text-decoration:none;
+}
+
+body{background-image:linear-gradient(to right,#01022d,#000);
+height:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.mee{background:transparent;
+width:90%;
+height:90%;
+background-image:linear-gradient(to right,#01022de5 30%,#00000088),
+url(1.png);
+background-position:center;
+background-repeat:no-repeat;
+background-size:100%;}
+
+.mee:hover{
+	background-image:linear-gradient(to right,#01022de5 30%,transparent),
+url(1.png);}
+
+header{display:flex;
+justify-content:space-between;
+align-items: center;
+padding:10px;}
+
+.logo{font-size:30px;
+text-transform:uppercase;}
+
+ul{width:60%;
+list-style:none;
+display:flex;
+justify-content:space-evenly;}
+
+ul a{border-bottom:2px solid transparent;}
+
+ul a:hover{border-bottom-color:white;}
+
+.me{width:50%;
+color:white;
+margin-top:40px;
+padding:20px:}
+
+.me h2{font-size:70px;
+text-transform:uppercase;}
+
+.me p{letter-spacing:3px;
+width:450px;}
+
+.me button{font-size:20px;
+padding:6px 10px;
+border-radius:10px;
+border:2px solid transparent;
+cursor:pointer;}
+
+.me button:hover{background-color:transparent;
+border-color:white;
+color:white;}
+
+.about a{color:white;
+text-decoration:none;
+margin:20px 20px;padding:20px 20px;
+}
